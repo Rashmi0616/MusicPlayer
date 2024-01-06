@@ -20,7 +20,16 @@
          }
    });
    
+    function playl(){
+        var element=document.body;
+        element.classList.toggle("dark-mode");
+    // document.getElementById("playl").value="Dark mode";
 
+    }
+    // function playd(){
+    //     var e=document.body;
+    //     e.classList.toggle("dark-mode");
+    // }
 
 
 
@@ -158,19 +167,6 @@
     });
 
     
-
-
-
-
-
-
-
-
-
-
-
-
-
 
     let pop_s_Left = document.getElementById('pop_s_left');
     let pop_s_Right = document.getElementById('pop_s_right');
